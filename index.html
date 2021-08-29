@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practical 6</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .heading {
+        color: white;
+        font-size: 34px;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .container {
+        display: inline-flex;
+      }
+      .image {
+        border-radius: 15px;
+      }
+      img {
+        border-radius: 10px;
+        width: 100%;
+        height: 150px;
+      }
+      .button {
+        display: block;
+        margin-top: 10px;
+        font-family: sans-serif;
+        border-radius: 10px;
+        height: 35px;
+        background-color: red;
+        text-align: center;
+        padding-top: 8px;
+      }
+      .button:hover {
+        background-color: blue;
+      }
+      .card {
+        overflow: hidden;
+        width: 300px;
+        margin-right: 20px;
+        margin-left: 15px;
+        border: 2px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: justify;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body style="background-color:silver">
+    <p class = "heading"><b>PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES</b></span>
+      <div class="container">
+      <div class="card" id="card-1">
+        <div class="image">
+        <img src="./images/html.png" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to HTML</h3>
+        Click to know more about HTML.
+         <a href="https://www.w3schools.com/html/html_intro.asp"><span style="color:white">
+           <div class="button">
+             <b>Read More</b>
+           </div>
+         </span></a>
+      </div>
+      <div class="card" id="card-2">
+        <div class="image">
+        <img src="./images/css.png" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to CSS</h3>
+        Click to know more about CSS.
+
+         <a href="https://www.w3schools.com/css/css_intro.asp"><span style="color:white">
+           <div class="button">
+             <b>Read More</b>
+           </div>
+         </span></a>
+      </div>
+      <div class="card" id="card-3">
+        <div class="image">
+        <img src="./images/js.png" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to Javascript</h3>
+        Click to know more about Javascript.
+
+          <a href="https://www.w3schools.com/js/"><span style="color:white">
+            <div class="button">
+              <b>Read More</b>
+            </div>
+          </span></a>
+      </div>
+      <div class="card" id="card-4">
+        <div class="image">
+        <img src="./images/bt.jpg" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to Bootstrap</h3>
+        Click to know more about Bootstrap.
+
+         <a href="https://www.w3schools.com/whatis/whatis_bootstrap.asp"><span style="color:white">
+           <div class="button">
+             <b>Read More</b>
+           </div>
+         </span></a>
+      </div>
+    </div>
+    <br><br>
+    <hr>
+  </body>
+</html>
